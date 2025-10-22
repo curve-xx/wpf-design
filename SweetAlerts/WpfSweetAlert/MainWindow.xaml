@@ -1,0 +1,32 @@
+﻿<Window
+    x:Class="WpfSweetAlert.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF Confirmation Demo"
+    Width="450"
+    Height="300"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <TextBlock
+                Name="ResultTextBlock"
+                Margin="0,0,0,20"
+                HorizontalAlignment="Center"
+                FontSize="16"
+                Text="Click the button below to show the confirmation." />
+
+            <Button
+                Width="250"
+                Height="40"
+                Background="#3498DB"
+                BorderThickness="0"
+                Click="PerformAction_Click"
+                Content="Show SweetAlert Confirmation"
+                Cursor="Hand"
+                FontSize="14"
+                FontWeight="Bold"
+                Foreground="White" />
+        </StackPanel>
+    </Grid>
+</Window>
