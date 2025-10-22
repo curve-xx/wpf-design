@@ -18,9 +18,15 @@ public partial class MainWindow : Window
         // 1. Initialize the Notifier with configuration
         _notifier = new Notifier(cfg =>
         {
+            // // Position: Top right of the MainWindow
+            // cfg.PositionProvider = new WindowPositionProvider(
+            //     parentWindow: Application.Current.MainWindow,
+            //     corner: Corner.TopRight,
+            //     offsetX: 10,
+            //     offsetY: 10);
+            
             // Position: Top right of the screen
-            cfg.PositionProvider = new WindowPositionProvider(
-                parentWindow: Application.Current.MainWindow,
+            cfg.PositionProvider = new PrimaryScreenPositionProvider(
                 corner: Corner.TopRight,
                 offsetX: 10,
                 offsetY: 10);
