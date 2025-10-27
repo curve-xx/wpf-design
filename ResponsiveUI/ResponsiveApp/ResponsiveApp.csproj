@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\Saira-Regular.ttf"/>
+    <Resource Include="Fonts\OpenSans-SemiBold.ttf"/>
+    <Resource Include="Fonts\Saira-SemiBold.ttf"/>
+    <Resource Include="Fonts\Roboto-Regular.ttf"/>
+    <Resource Include="Fonts\Roboto-Medium.ttf"/>
+    <Resource Include="Fonts\OpenSans-Regular.ttf"/>
+    <Resource Include="Fonts\Raleway-Medium.ttf"/>
+    <Resource Include="Fonts\Raleway-SemiBold.ttf"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\analytics_icon.png"/>
+    <Resource Include="Assets\calendar_icon.png"/>
+    <Resource Include="Assets\categories_icon.png"/>
+    <Resource Include="Assets\close_menu_def.png"/>
+    <Resource Include="Assets\close_menu_mo.png"/>
+    <Resource Include="Assets\dashboard_icon.png"/>
+    <Resource Include="Assets\delivery_icon.png"/>
+    <Resource Include="Assets\Devices_Image.png"/>
+    <Resource Include="Assets\discount_icon.png"/>
+    <Resource Include="Assets\hamburger_icon.png"/>
+    <Resource Include="Assets\hamburger_mo.png"/>
+    <Resource Include="Assets\line_chart.png"/>
+    <Resource Include="Assets\max_def.png"/>
+    <Resource Include="Assets\max_mo.png"/>
+    <Resource Include="Assets\order32.png"/>
+    <Resource Include="Assets\product_icon.png"/>
+    <Resource Include="Assets\reports_icon.png"/>
+    <Resource Include="Assets\sales_icon.png"/>
+    <Resource Include="Assets\shutdown_def.png"/>
+    <Resource Include="Assets\shutdown_mo.png"/>
+    <Resource Include="Assets\stats_icon.png"/>
+    <Resource Include="Assets\stocks_icon.png"/>
+    <Resource Include="Assets\user_icon.png"/>
+  </ItemGroup>
+</Project>
